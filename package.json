@@ -1,0 +1,19 @@
+{
+  "name": "org.nypr.cordova.wakeupplugin",
+  "version": "0.4.121",
+  "displayName": "WakeupTimer",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {}
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.4.121": {
+        "cordova-android": ">6.3.0"
+      }
+    }
+  }
+}

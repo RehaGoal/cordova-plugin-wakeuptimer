@@ -17,7 +17,7 @@ public class WakeupBootReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		Log.d(LOG_TAG, "wakeup boot receiver fired at " + sdf.format(new Date().getTime()));
-		WakeupPlugin.setAlarmsFromPrefs( context );
+		Log.i(LOG_TAG, "wakeup boot receiver fired at " + sdf.format(new Date().getTime()));
+		WakeupPlugin.resetPrefsToDefault( context );
 	}
 }
